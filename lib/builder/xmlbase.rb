@@ -47,6 +47,7 @@ module Builder
         case arg
         when ::Hash
           attrs ||= {}
+          text = arg.delete(:text)
           attrs.merge!(arg)
         when nil
           attrs ||= {}
