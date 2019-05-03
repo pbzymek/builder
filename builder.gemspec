@@ -11,4 +11,5 @@ Gem::Specification.new do |s|
   s.email       = ["pbzymek@gmail.com"]
   s.homepage    = "https://github.com/pbzymek/builder"
   s.license     = "MIT"
+  s.files = Dir["{doc,lib,rakelib,test}/**/*", "CHANGES", "MIT-LICENSE", "Rakefile", "README.md"]
 end
